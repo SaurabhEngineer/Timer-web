@@ -1,0 +1,27 @@
+.inner{
+    width: fit-content;  
+    box-shadow: 4px 4px 4px rgb(61, 42, 42);
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 22%;
+    left: 20%;
+}
+button{
+    padding: 0.3em 0.5em;
+    background:burlywood; 
+    border-radius: 10%;
+    font-weight:bold;
+}
+
+body {display: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEFEF;
+    margin-top: 40px;
+    background: linear-gradient(to top right, #053244 0%, #00ffdd 100%);
+    min-height: calc(100vh - 48px);
+}
